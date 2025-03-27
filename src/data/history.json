@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "Google",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": "I worked on Google Maps and reduced load times by 50%",
+      "skills": ["Angular","Python", "GCP", "Git", "GitHub"],
+      "imageSrc": "history/google_icon.png"
+    },
+    {
+      "role": "UI Designer",
+      "organisation": "Mirosoft",
+      "startDate": "Aug, 2021",
+      "endDate": "Aug, 2022",
+      "experiences": "I worked on Windows 11 and designed the control panel",
+      "skills": ["React","Node", "PHP", "GraphQL", "Presto"],
+      "imageSrc": "history/microsoft_icon.png"
+    },
+    {
+      "role": "SWE Intern",
+      "organisation": "Netflix",
+      "startDate": "Apr, 2020",
+      "endDate": "Jun, 2020",
+      "experiences": "I helped working on component library and creating UI components",
+      "skills": ["Java","Python", "RDS", "Git", "HDFS"],
+      "imageSrc": "history/netflix_icon.png"
+    }
+  ]

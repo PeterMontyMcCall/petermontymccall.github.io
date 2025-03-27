@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Java",
+      "imageSrc": "skills/java_icon.png",
+      "hoverImageSrc": "skills/java_color_icon.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python_icon.png",
+      "hoverImageSrc": "skills/python_color_icon.png"
+    },
+    {
+      "title": "C/C++",
+      "imageSrc": "skills/cpp_icon.png",
+      "hoverImageSrc": "skills/cpp_color_icon.png"
+    },
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html_icon.png",
+        "hoverImageSrc": "skills/html_color_icon.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "skills/css_icon.png",
+        "hoverImageSrc": "skills/css_color_icon.png"
+      },
+      {
+        "title": "React",
+        "imageSrc": "skills/react_icon.png",
+        "hoverImageSrc": "skills/react_color_icon.png"
+      },
+      {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript_icon.png",
+        "hoverImageSrc": "skills/javascript_color_icon.png"
+      },
+      {
+        "title": "MySQL",
+        "imageSrc": "skills/mysql_icon.png",
+        "hoverImageSrc": "skills/mysql_color_icon.png"
+      }
+    ]
