@@ -1,0 +1,168 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    border-radius: 0.9375em;
+    margin-top: 9.375em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2.4em;
+    margin-bottom: 2.4em;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 2.8125em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.headerLine {
+    width: 100%;
+    height: 0.0625em;
+    background: var(--color-text);
+    opacity: .3;
+}
+
+.content {
+    margin-top: 3.125em;
+    display: flex;
+    gap: 3em;
+    align-items: flex-start;
+}
+
+.introduction {
+    color: var(--color-text);
+    width: 60%;
+    justify-items: center;
+}
+
+.introduction p {
+    width: 90%;
+    font-size: 1.375em;
+    font-weight: 300;
+    margin-bottom: 1.5625em;
+}
+
+.skills {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    gap: 1.875em;
+    justify-content: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6875em;
+}
+
+.skillImageContainer {
+    border: 0.0625em inset #b2b2b2b2;
+    border-radius: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.6875em;
+    height: 4.6875em;
+    transition: background-color 0.3s ease;
+}
+
+.skillImageContainer:hover {
+    background-color: #282828;
+}
+
+.skillImageContainer img {
+    width: 55%;
+    transition: transform 0.3s ease;
+}
+
+.skillImageContainer:hover img {
+    transform: translateY(-0.3125em);
+}
+
+.skill p {
+    color: var(--color-text);
+    font-size: 1.125em;
+    font-weight: 100;
+    margin: 0;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
+    .skills {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 7.5em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .header {
+        gap: 1em;
+    }
+
+    .title {
+        font-size: 1.875em;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6em;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
+    .introduction p {
+        font-size: 1.125em;
+    }
+
+    .skills {
+        width: 100%;
+        gap: 1em;
+    }
+
+    .skill {
+        gap: 0.5em;
+    }
+
+    .skillImageContainer {
+        width: 4.375em;
+        height: 4.375em;
+    }
+
+    .skill p {
+        font-size: 1em;
+    }
+}

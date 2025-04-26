@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Math Madness",
+    "imageSrc": "projects/math_madness.png",
+    "description": "An interactive Java-based basketball game that combines math and gameplay, where players solve problems by shooting hoops in a fun, engaging environment.",
+    "skills": "Java - Java Swing - JUnit",
+    "source": "https://github.com/PeterMontyMcCall/MathMadness",
+    "modalData": {
+      "about": "This Java-based educational basketball game helps elementary students practice math through interactive gameplay, where players shoot hoops to answer multiple-choice questions across five dynamic levels with non-repetitive challenges.",
+      "contributions": [
+        "Developed core classes such as Account, Instructor, Student, and Debugger to manage game logic and user interaction.",
+        "Wrote and executed JUnit tests to verify functionality, achieving 90% code coverage.",
+        "Created clear documentation for class structures, methods, and overall game flow to support future development and maintenance.",
+        "Used Git for version control, handling branches and resolving code conflicts."
+      ]
+    }
+  },
+  {
+    "title": "Pokemon GO Project",
+    "imageSrc": "projects/pokemon_go.png",
+    "description": "A two-player Pokémon game where players battle using randomly assigned Gen 1 teams, taking turns until one player’s entire team of Pokémon has fainted.",
+    "skills": "Java - Java Swing",
+    "source": "https://github.com/PeterMontyMcCall/pokemongoproject/",
+    "modalData": {
+      "about": "A two-player Pokémon battle game with random Gen 1 teams, turn-based combat, type matchups, stat-altering moves, and a full Java Swing interface inspired by Pokémon Showdown.",
+      "contributions": [
+        "Designed and built a two-player Pokémon battle game in Java with a custom Swing GUI, including battle screens, health bars, and animated sprite displays.",
+        "Implemented core turn-based mechanics such as move priority, speed-based turn order, type matchups, damage calculation, and stat-altering effects.",
+        "Developed a randomized team generation system that selects six unique Gen 1 final-evolution Pokémon per player from a custom Pokédex file.",
+        "Structured the game using object-oriented principles with modular classes for players, Pokémon, moves, battle logic, and status effect handling.",
+        "Integrated external text files for dynamic data loading of Pokémon stats, moves, and type charts, enabling flexible expansion and easy updates."
+      ]
+    }
+  },
+  {
+    "title": "Exam Management",
+    "imageSrc": "projects/exam_verification_system.png",
+    "description": "An application for managing university exam sessions, enabling student check-ins and post-exam reporting using a custom-built identity verification and attendance system.",
+    "skills": "C++ - QT6 - gtest - CMake",
+    "source": "https://github.com/PeterMontyMcCall/WesternExamManagementSystem",
+    "modalData": {
+      "about": "This application automates key tasks in university exam sessions, including student ID check-ins, dynamic seat and version assignments, attendance tracking, washroom break logging, early submissions, incident reporting, and PDF report generation.",
+      "contributions": [
+        "Developed the Exam class (Exam.h / Exam.cpp), the project's core logic hub handling student check-ins, seat assignments, exam versioning, break logging, and submissions.",
+        "Implemented seat map logic to dynamically assign students to available seats during check-in.",
+        "Managed exam lifecycle features, such as early and timed submissions, and incident reporting.",
+        "Created the PDF report generation UI (GenerateReport dialog), displaying summary data and exporting a comprehensive exam report using PDFReportGenerator."
+      ]
+    }
+  }
+]

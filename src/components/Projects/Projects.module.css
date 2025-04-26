@@ -1,0 +1,69 @@
+@import "../../vars.css";
+
+.container {
+    margin-top: 9.375em;
+    color: var(--color-text);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.headerLine {
+    width: 100%;
+    height: 0.0625em;
+    background: var(--color-text);
+    opacity: .3;
+}
+
+.title {
+    font-size: 2.8125em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.projects {
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.9375em;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 7.5em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .header {
+        gap: 1em;
+    }
+
+    .title {
+        font-size: 1.875em;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,132 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.06em;
+    margin-left: 15%;
+    margin-right: 15%;
+    z-index: 1;
+}
+
+.content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+}
+
+.title {
+    font-size: 4.5em;
+    font-weight: 900;
+    margin-bottom: 0.38em;
+    background-color: var(--color-text);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    font-size: 1.87em;
+    margin-bottom: 2em;
+}
+
+.contactBtn {
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border-radius: 10px;
+    font-size: 1.56em;
+    font-weight: 500;
+    padding: 0.6em 1em;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    transition: transform 0.1s ease-out;
+}
+
+.contactBtn:hover {
+    transform: scale(1.05);
+}
+
+.heroImg {
+    width: 50%;
+    z-index: 1;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        align-items: center;
+    }
+
+    .title {
+        font-size: 3.88em;
+        font-weight: 700;
+        margin-bottom: 0.8em;
+    }
+
+    .description {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .contactBtn {
+        font-size: 1.8em;
+        padding: 0.8em 1.2em;
+    }
+
+    .heroImg {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .title {
+        font-size: 2.88em;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+
+    .description {
+        font-size: 1.25em;
+        margin-bottom: 2.4em;
+    }
+
+    .contactBtn {
+        font-size: 1.25em;
+        padding: 0.69em 1.25em;
+    }
+
+    .heroImg {
+        width: 90%;
+    }
+}

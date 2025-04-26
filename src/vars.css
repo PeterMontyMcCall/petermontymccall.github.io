@@ -1,0 +1,8 @@
+:root {
+    /* Colours */
+    --color-text: #E0E0E0;
+    --color-primary: #232323; /* buttons and cards */
+    --color-secondary: #2979FF; /* accent color */
+    --color-dark: #2b2b2b;
+    --color-bg: #111111;
+}
