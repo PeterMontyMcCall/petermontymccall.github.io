@@ -18,7 +18,7 @@
   {
     "title": "Pokemon GO Project",
     "imageSrc": "projects/pokemon_go.png",
-    "description": "A two-player Pokémon game where players battle using randomly assigned Gen 1 teams, taking turns until one player’s entire team of Pokémon has fainted.",
+    "description": "A two-player Pokémon game where players battle using randomly assigned Gen 1 teams, taking turns until one player's entire team of Pokémon has fainted.",
     "skills": "Java - Java Swing",
     "source": "https://github.com/PeterMontyMcCall/pokemongoproject/",
     "modalData": {
@@ -45,6 +45,22 @@
         "Implemented seat map logic to dynamically assign students to available seats during check-in.",
         "Managed exam lifecycle features, such as early and timed submissions, and incident reporting.",
         "Created the PDF report generation UI (GenerateReport dialog), displaying summary data and exporting a comprehensive exam report using PDFReportGenerator."
+      ]
+    }
+  },
+    {
+    "title": "Ontario Politics Tracker",
+    "imageSrc": "projects/ontario_politics_tracker.png",
+    "description": "The Ontario Politics Tracker is a web application that helps users stay up-to-date on political news and policies in Ontario",
+    "skills": "Node.js - Express.js - JavaScript - PostgreSQL - React.js",
+    "source": "https://github.com/PeterMontyMcCall/ontario-politics-tracker",
+    "modalData": {
+      "about": "The application automatically fetches from trusted outlets such as CBC, Global News, Toronto Star, and others, and renewed every hour. Articles are then categorized into key topics.",
+      "contributions": [
+        "Developed a backend service that automatically fetches Ontario-related political news from NewsAPI, categorizes articles into topics like health, education, and environment using keyword matching, and stores them in PostgreSQL while preventing duplicates with fuzzy matching.",
+        "Designed and implemented RESTful API endpoints to retrieve and post articles, supporting advanced filters by topic, outlet, date, search terms, and pagination, with SQL injection-safe queries.",
+        "Set up a scheduled cron job to periodically fetch, categorize, and refresh the database with the latest news articles automatically.",
+        "Built a responsive React frontend with search, filters, pagination, and a user-friendly news feed integrated with the backend API."
       ]
     }
   }
