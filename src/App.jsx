@@ -4,19 +4,21 @@ import About from './components/About/About.jsx'
 import Experience from './components/Experience/Experience.jsx'
 import Projects from './components/Projects/Projects.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import SwiperTest from './components/SwiperTest/SwiperTest.jsx'
 import styles from './App.module.css'
 
 function App() {
 
-  return(
+  return (
     <>
       <div className={styles.App}>
-        <NavBar/>
-        <Hero/>
-        <About/>
-        <Experience/>
-        <Projects/>
-        <Contact/>
+        <NavBar />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        {/* <SwiperTest /> */}
+        <Contact />
       </div>
     </>
   );

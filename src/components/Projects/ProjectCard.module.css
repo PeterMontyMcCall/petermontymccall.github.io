@@ -1,12 +1,18 @@
 @import "../../vars.css";
 
-.container {
+:global(.swiper) {
+    width: 100%;
+    padding: 60px;
+}
+
+
+
+/* .container {
     display: flex;
     flex-direction: column;
     margin-top: 1.25em;
     max-width: 30%;
     min-width: 25em;
-    /* max-height: 500px; */
     border-radius: 0.625em;
     border-top-right-radius: 3.125em;
     background-color: var(--color-primary);
@@ -118,4 +124,42 @@
         font-size: 1.25em;
         font-weight: 500;
     }
+} */
+
+/* :global(.swiper-slide) {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+} */
+
+/* :global(.swiper) {
+    width: 100%;
+    padding: 60px;
 }
+
+:global(.swiper-slide) {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: var(--primary-clr);
+    box-shadow: 1px 22px 44px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden transition 1s;
+    user-select: none;
+}
+
+:global(.swiper-slide-active) {
+    width: 600px;
+    transition: width 1s ease-in-out;
+    border: 3px solid var(--primary-clr);
+}
+
+:global(.swiper-slide) img {
+    position: absolute;
+    inset: 0;
+    filter: grayscale(90%);
+}
+
+:global(.swiper-slide-active) img {
+    filter: grayscale(0%);
+} */

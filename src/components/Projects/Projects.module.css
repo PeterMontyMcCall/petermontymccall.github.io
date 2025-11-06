@@ -28,7 +28,7 @@
     text-transform: uppercase;
 }
 
-.projects {
+/* .projects {
     margin-top: 2.5em;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@
     justify-content: space-evenly;
     gap: 0.9375em;
     width: 100%;
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .title {
@@ -66,4 +66,18 @@
     .projects {
         flex-direction: column;
     }
+}
+
+.sliderContainer {
+    margin-top: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    background: #03171d;
+    /* overflow: hidden; */
+}
+
+.projects {
+    width: 80%;
 }
